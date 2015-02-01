@@ -10,7 +10,7 @@
 #define MAP_SIZE_H 20
 #define MAP_SIZE_W 20
 #define MAP_SIZE_SQUARE 30
-#define MAP_NB_OBSTACLE 55
+#define MAP_NB_OBSTACLE 80
 
 void drawMap( int* map, BITMAP* buffer)
 {
@@ -36,7 +36,7 @@ void drawMap( int* map, BITMAP* buffer)
 
     textprintf(buffer,font,5+MAP_SIZE_W*MAP_SIZE_SQUARE+10,20,makecol(255,255,255),"Press Enter - Restart map");
     textprintf(buffer,font,5+MAP_SIZE_W*MAP_SIZE_SQUARE+10,40,makecol(255,255,255),"Press 1     - DFS");
-    textprintf(buffer,font,5+MAP_SIZE_W*MAP_SIZE_SQUARE+10,60,makecol(255,255,255),"Press 2     - BAS");
+    textprintf(buffer,font,5+MAP_SIZE_W*MAP_SIZE_SQUARE+10,60,makecol(255,255,255),"Press 2     - BFS");
     textprintf(buffer,font,5+MAP_SIZE_W*MAP_SIZE_SQUARE+10,80,makecol(255,255,255),"Press 3     - A*");
 
 }

@@ -3,17 +3,17 @@
 ![2015-01-28_16h03_32](https://cloud.githubusercontent.com/assets/10437041/5940101/cc09493c-a708-11e4-8a05-9589f2c1432e.png)
 
 *  Click here to watch a [short demonstration video](http://youtu.be/dr_diAp6jOI) on the Finite State Machine program
-*  Click here to see the [commented version]() (in french [here]() ) on the Finite State Machine program
+*  Click here to see the [commented version](http://youtu.be/z-DhOKG285c) (in french [here](http://youtu.be/5bxMzXrEBRg) ) on the Finite State Machine program
 
 ![2015-01-28_16h05_54](https://cloud.githubusercontent.com/assets/10437041/5939962/f2476940-a707-11e4-8ab5-ac263955cfeb.png)
 
 *  Click here to watch a [short demonstration video](http://youtu.be/Ym7h2eV33qQ) on the Path Finding program
-*  Click here to see the [commented version]() (in french [here]() ) on the Path Finding program
+*  Click here to see the [commented version](http://youtu.be/4orGvXkjvGU) (in french [here](http://youtu.be/_NPyOLyE42o) ) on the Path Finding program
 
 ![2015-01-28_16h06_06](https://cloud.githubusercontent.com/assets/10437041/5940216/b392c8b4-a709-11e4-8623-d8885fa9bb4b.png)
 
 *  Click here to watch a [short demonstration video](http://youtu.be/v-tf4Nub6-o) on the Steering Behaviours program
-*  Click here to see the [commented version]() (in french [here]() ) on the Steering Behaviours program
+*  Click here to see the [commented version](http://youtu.be/_F-9b9kvZws) (in french [here](http://youtu.be/zuR32JQ47mE) ) on the Steering Behaviours program
 
 --
 
@@ -25,21 +25,27 @@
 
 #### When
 
+I did these games during my **master in Japan**, at the Osaka Prefecture University in *2013**. I was near the end of my master and was looking for an internship. As I wanted to find something related to cognitive science or artificial intelligence, I decided to practice some algorithms I found in a book: “Programing Game AI by example” by Mat Buckland, 2005.
 
+In addition, I read a while back a book on game programing: “Game Programming All in one” by Jonathan, S. Harbour, 2004. I learned the C++ library Allegro for game programing and I decided to use it in my project.
 
 #### What
 
+I implemented 3 different algorithms: a **finite state machine**, a **path finding** and a **steering behaviors**.  These algorithms were basics and really important in AI, and quite interesting and challenging to implement.
 
+* In the book in read, a first introduction to basic AI behavior was given with a **finite state machine**. As it was a really useful and important algorithm to now, I decided to implement it.
+* It was quite the same way I decided to implement the **path finding** algorithm. A* is such an overused technique I had to learn and try it. 
+* Another really interesting algorithm was **steering behaviors**. It was quite intriguing in the book and I was interested in this for another project of mine, so I decided to implement it. 
 
 #### How
 
-
+As mentioned, this project was developed in **C++** using the **Allegro** library. I developed it using **Code::Blocks** IDE. The library contain all that is needed for 2D game programing, with drawing functions, sound, gamepad, and more.
 
 ---
 
 #### Note
 
-
+I carefully commented the code on these projects and tried to make them modular. It’s a good example of my coding style.
 
 ---
 
